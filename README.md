@@ -1,6 +1,6 @@
 # BashCraft Techincal Team Tasks
 
-## Hi I am Aarav Agarwal. I have done both the task 2 to show my skills in BackEnd.
+## Hi I am Aarav Agarwal. I have done task 2 to show my skills in BackEnd.
 
 ---
 
