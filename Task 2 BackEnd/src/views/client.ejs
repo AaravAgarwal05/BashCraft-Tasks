@@ -1,0 +1,25 @@
+// Basic HTML structure for the client side
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Client & Server Connection</title>
+  </head>
+  <body>
+    <h1 id="status">
+      Congratulations, You have been connected to Socket IO Server.🥳🥳
+    </h1>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      // Connect to the Socket IO Server
+      const socket = io();
+      // Listen for the disconnection event
+      socket.on("disconnect", () => {
+        // Update the status message
+        document.getElementById("status").innerText =
+          "Sad to say but you have been disconnected from Socket IO Server.🥺🥺";
+      });
+    </script>
+  </body>
+</html>
