@@ -1,12 +1,16 @@
 # BashCraft Techincal Team Tasks
 
- BashCrafts Tasks Alloted For Technical Round
-
 ## Hi I am Aarav Agarwal. I have done both the tasks 1 & 2 to show my skills both in FrontEnd and BackEnd.
+
+---
 
 # Task Details:
 
+---
+
 ## Task 1 Front End
+
+---
 
 ## Task 2 Back End
 
@@ -20,10 +24,12 @@
 - **Key Features:**
   - Server Setup: The server is built using Express to handle HTTP requests, Socket.IO for real-time communication over WebSocket, and TypeScript for better code maintainability.
   - Socket.IO Integration: Handles client connections and disconnections in real-time, providing IP-based logging and automated disconnection after a set timeout.
-  - EJS Templating: Utilizes EJS as the view engine to render a client_connection.ejs page that dynamically updates with connection status, messages, and events sent from the server.
+  - EJS Templating: Utilizes EJS as the view engine to render a client.ejs page that dynamically updates with connection status, messages, and events sent from the server.
 
 - **Steps Implemented:**
   - Initialize an HTTP Server: Using Express, the server is configured to listen on 127.0.0.1 and port 6969.
   - Integrate Socket.IO: For seamless real-time communication, Socket.IO is attached to the HTTP server, enabling it to listen for and manage client connection and disconnection events.
   - Set Up EJS as a View Engine: EJS is configured as the templating engine to render HTML pages that serve as the client interface.
   - Client Interaction: The client.ejs page includes JavaScript to establish a connection to the server using Socket.IO, displays messages in real-time, and listens for disconnect events.
+
+---
